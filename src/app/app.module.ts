@@ -8,6 +8,7 @@ import { MainscreenComponent } from './components/mainscreen/mainscreen.componen
 import { BottombarComponent } from './components/widgets/bottombar/bottombar.component';
 import { TopbarComponent } from './components/widgets/topbar/topbar.component';
 import { UseridentificationComponent } from './components/widgets/useridentification/useridentification.component';
+import { CadUsuariosComponent } from './components/cad-usuarios/cad-usuarios.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UseridentificationComponent } from './components/widgets/useridentifica
     MainscreenComponent,
     BottombarComponent,
     TopbarComponent,
-    UseridentificationComponent
+    UseridentificationComponent,
+    CadUsuariosComponent
   ],
   imports: [
     BrowserModule,
